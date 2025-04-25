@@ -7,7 +7,7 @@ class EthiopianCalendar {
       this.fourYears = 3 * this.oneYear + this.oneLeapYear;
   
       this.weekdaysGregorian = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-      this.weekdaysEthiopian = ["እሁድ", "ሰኞ", "ማክሰኞ", "ረቡዕ", "ሐሙስ", "ቅዳሜ", "ቅዳሜ"];
+      this.weekdaysEthiopian = ["እሁድ", "ሰኞ", "ማክሰኞ", "ረቡዕ", "ሐሙስ", "አርብ", "ቅዳሜ"];
     }
   
     getEthiopianTime(date) {
